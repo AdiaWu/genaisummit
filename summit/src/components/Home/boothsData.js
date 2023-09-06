@@ -83,6 +83,7 @@ export const booths = [
     //     description: "Cerebral Valley is a community comprised of founders and builders, dedicated to collaboratively researching and crafting the next generation of technology. Within this valley, members share resources, experiences, and knowledge, fostering cooperation and communication to push the boundaries of technological innovation.",
     //     image: require("../../assets/images/sponsors/cerebral.png")
     // },
+    
     {
         name: "Founders Space",
         link: "https://www.foundersspace.com/",
