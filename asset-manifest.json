@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.a91a75e5.css",
-    "main.js": "/static/js/main.aa1c89a9.js",
+    "main.css": "/static/css/main.f60893c0.css",
+    "main.js": "/static/js/main.aaf13cf9.js",
     "static/js/787.16e64372.chunk.js": "/static/js/787.16e64372.chunk.js",
     "static/media/main-bg1.mp4": "/static/media/main-bg1.a2703484bb9eee7d0c2e.mp4",
     "static/media/main-bg1.jpg": "/static/media/main-bg1.feafeadc13b9c985725e.jpg",
     "static/media/about1.jpg": "/static/media/about1.34bd90dc119b345f16f0.jpg",
     "static/media/shaun.JPG": "/static/media/shaun.b608195ac9ae3b5002f4.JPG",
+    "static/media/nguyen.png": "/static/media/nguyen.286a66cbf57878e03521.png",
     "static/media/Alan.jpg": "/static/media/Alan.d58a39ad85015a8beea0.jpg",
-    "static/media/patil.JPG": "/static/media/patil.7f9a4fe93bb831edd3cb.JPG",
+    "static/media/patil.jpg": "/static/media/patil.7f9a4fe93bb831edd3cb.jpg",
     "static/media/chuntingzhou.jpeg": "/static/media/chuntingzhou.85f80f530ddd5e1efb72.jpeg",
     "static/media/banner2.png": "/static/media/banner2.357e5b87ef579466fd19.png",
     "static/media/lianmin.png": "/static/media/lianmin.5eb402ba4298b11ecb24.png",
@@ -38,7 +39,6 @@
     "static/media/gold.png": "/static/media/gold.a34cd56500d4d46a75eb.png",
     "static/media/arvind_jain.jpg": "/static/media/arvind_jain.e8ca1ed7b7571343d967.jpg",
     "static/media/citingAI.png": "/static/media/citingAI.02aa9271c1d93fdc1bad.png",
-    "static/media/jim_fan.jpeg": "/static/media/jim_fan.d8ea5488c10bfe67b6cf.jpeg",
     "static/media/Jay.jpg": "/static/media/Jay.132c359489fc6f0b2fc7.jpg",
     "static/media/ExaBITS.png": "/static/media/ExaBITS.12f5792220ba556abc41.png",
     "static/media/ziren.jpg": "/static/media/ziren.e10b22b58a3ece07acfb.jpg",
@@ -59,7 +59,6 @@
     "static/media/jason_l.webp": "/static/media/jason_l.b50f7c5e5525c81d4b3f.webp",
     "static/media/Rohit.jpg": "/static/media/Rohit.c11096ea8e42722c6263.jpg",
     "static/media/yunjin.jpg": "/static/media/yunjin.190e1848690271cf1805.jpg",
-    "static/media/newlands.JPG": "/static/media/newlands.6aa8d1658fd44df7ce7d.JPG",
     "static/media/blog2.jpg": "/static/media/blog2.60e150c543ffcc93d334.jpg",
     "static/media/microsoft.png": "/static/media/microsoft.21e3a52cfa973d382495.png",
     "static/media/tencent.png": "/static/media/tencent.ad82fec661abff58eb76.png",
@@ -88,7 +87,6 @@
     "static/media/aligns.png": "/static/media/aligns.b1a0146f06a0bc9dfa79.png",
     "static/media/portkey.png": "/static/media/portkey.853be9032ea8b90390b9.png",
     "static/media/starloom.png": "/static/media/starloom.1320884ded369f3a8506.png",
-    "static/media/hugo.jpeg": "/static/media/hugo.b6fcbd65812333f88743.jpeg",
     "static/media/onecarmel.png": "/static/media/onecarmel.fb479116316c66d86904.png",
     "static/media/metagpt.png": "/static/media/metagpt.6dada2d899c347d6bd40.png",
     "static/media/lepton.png": "/static/media/lepton.fde66017fbc7790b489b.png",
@@ -103,16 +101,16 @@
     "static/media/deepbrain.png": "/static/media/deepbrain.fd2c37f5cce8a8a27376.png",
     "static/media/aivres.webp": "/static/media/aivres.f99c33dd58d88dd96fce.webp",
     "static/media/sineaptic.avif": "/static/media/sineaptic.f5548ed80bdef65094b3.avif",
-    "static/media/glean.svg": "/static/media/glean.f1d742197e13dd3e1df625d605ec4217.svg",
+    "static/media/glean.svg": "/static/media/glean.bf098ea494b0c8c44eb340b06bd4a47b.svg",
     "static/media/rns.svg": "/static/media/rns.c2cde673a75709e63e7ee02e706d4aa8.svg",
     "static/media/arize.svg": "/static/media/arize.8ca474c99641714a03ec221151132c1d.svg",
     "index.html": "/index.html",
-    "main.a91a75e5.css.map": "/static/css/main.a91a75e5.css.map",
-    "main.aa1c89a9.js.map": "/static/js/main.aa1c89a9.js.map",
+    "main.f60893c0.css.map": "/static/css/main.f60893c0.css.map",
+    "main.aaf13cf9.js.map": "/static/js/main.aaf13cf9.js.map",
     "787.16e64372.chunk.js.map": "/static/js/787.16e64372.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a91a75e5.css",
-    "static/js/main.aa1c89a9.js"
+    "static/css/main.f60893c0.css",
+    "static/js/main.aaf13cf9.js"
   ]
 }
