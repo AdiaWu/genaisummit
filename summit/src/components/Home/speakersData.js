@@ -8,7 +8,7 @@ export const speakers = [
     },
     {
         name: "Rashmi Misra",
-        title: "GM of AI & Emerging Tech",
+        title: "General Manager, Data and AI Business Development",
         company: "Microsoft",
         image: require("../../assets/images/speakers/misra.png"),
         socialLinks: [
@@ -27,17 +27,7 @@ export const speakers = [
             { href: "https://www.jasonwei.net/", icon: "icofont-web" }
         ]
     },
-    {
-        image: require("../../assets/images/speakers/jim_fan.jpeg"),
-        name: "Jim Fan",
-        title: "Senior AI Scientist",
-        company: "Nvidia",
-        socialLinks: [
-            { href: "https://twitter.com/DrJimFan", icon: "icofont-twitter" },
-            { href: "https://www.linkedin.com/in/drjimfan/", icon: "icofont-linkedin" },
-            { href: "https://jimfan.me/", icon: "icofont-web" }
-        ]
-    },    {
+      {
         image: require("../../assets/images/speakers/harrison.jpeg"),
         name: "Harrison Chase",
         title: "CEO",
@@ -70,16 +60,6 @@ export const speakers = [
         ]
     },
     {
-        image: require("../../assets/images/speakers/hugo.jpeg"),
-        name: "Hugo Touvron",
-        title: "Lead Author",
-        company: "Llama2",
-        socialLinks: [
-            { icon: "icofont-twitter", href: "https://twitter.com/hugotouvron" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/hugo-touvron/" }
-        ]
-    },
-    {
         name: "Worldcoin",
         title: "",
         company: "",
@@ -101,6 +81,16 @@ export const speakers = [
         ]
     },
     {
+        name: "Anton Troynikov",
+        title: "Founder",
+        company: "Chroma",
+        image: require("../../assets/images/speakers/anton.jpg"),
+        socialLinks: [
+            { icon: "icofont-twitter", href: "https://twitter.com/atroyn" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/antontroynikov/" }
+        ]
+    },
+    {
         name: "Rajat Suri",
         title: "Co-founder @Lima Founder @Presto",
         company: "Co-founder @Lyft",
@@ -110,6 +100,27 @@ export const speakers = [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/rajatsuri/" }
         ]
     },
+    {
+        name: "Jonathan Heyne",
+        title: "COO",
+        company: "DeepLearning.AI",
+        image: require("../../assets/images/speakers/jonathan.jpg"),
+        socialLinks: [
+            { icon: "icofont-twitter", href: "https://twitter.com/Jonheyne" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jonathanheyne/" }
+        ]
+    },
+    {
+        name: "Kian Katanforoosh",
+        title: "CEO & Founder",
+        company: "Workera",
+        image: require("../../assets/images/speakers/kian.jpg"),
+        socialLinks: [
+            { icon: "icofont-twitter", href: "https://twitter.com/kiankatan" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/kiankatan/" }
+        ]
+    },
+    
     {
         name: "Jerry Liu",
         title: "Cofounder & CEO",
@@ -122,23 +133,25 @@ export const speakers = [
         ]
     },
     {
-        name: "Nathaniel Barling",
-        title: "Product & AI",
-        company: "a16z",
-        image: require("../../assets/images/speakers/barling.jpg"),
+        name: "Amin Ahmad",
+        title: "Founder & CTO",
+        company: "Vectara",
+        image: require("../../assets/images/speakers/amin.jpg"),
         socialLinks: [
-            { icon: "icofont-twitter", href: "https://twitter.com/NatBarling" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/nathanielwjbarling/" }
+            
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/aminahmad/" }
+           
         ]
     },
     {
-        name: "Sudip Roy",
-        title: "Director of Engineering",
+        name: "Jay Alammar",
+        title: "Director, Engineering Fellow",
         company: "Cohere",
-        image: require("../../assets/images/speakers/Sudip.png"),
+        image: require("../../assets/images/speakers/Jay.jpg"),
         socialLinks: [
-            { icon: "icofont-web", href: "https://en.wikipedia.org/wiki/Sudip_Roy" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/sudip-roy-81a23b15/" }
+            { icon: "icofont-web", href: "http://jalammar.github.io/" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/jalammar/recent-activity/all/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/JayAlammar" }
         ]
     },
     {
@@ -152,14 +165,24 @@ export const speakers = [
         ]
     },
     {
-        image: require("../../assets/images/speakers/stevehoffman.jpeg"),
-        name: "Steve Hoffman",
-        title: "Founder & CEO",
-        company: "Founders Space",
+        name: "Yun Jin",
+        title: "Engineering Director",
+        company: "Meta",
+        image: require("../../assets/images/speakers/yunjin.jpg"),
         socialLinks: [
-            { href: "https://twitter.com/FoundersSpace", icon: "icofont-twitter" },
-            { href: "https://www.linkedin.com/in/foundersspace/", icon: "icofont-linkedin" },
-            { href: "https://www.foundersspace.com/hoffman/", icon: "icofont-web" }
+            
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/yunjin/" },
+            
+        ]
+    },
+    {
+        name: "Yan Zhao",
+        title: "Vice Mayor",
+        company: "City of Saratoga",
+        image: require("../../assets/images/speakers/zhaoyan.jpg"),
+        socialLinks: [
+            { icon: "icofont-web", href: "https://www.saratoga.ca.us/443/Yan-Zhao" },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/yan-zhao-92a3328/" },
         ]
     },
     {
@@ -173,6 +196,7 @@ export const speakers = [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/xinyun-chen-b4ab79172/" }
         ]
     },
+
     {
         name: "Hanyu Xue",
         title: "Principle ML Eng Mgr",
@@ -197,7 +221,7 @@ export const speakers = [
         image: require("../../assets/images/speakers/yangqingjia.jpeg"),
         name: "Yangqing Jia",
         title: "Founder",
-        company: "Lepton",
+        company: "Lepton AI",
         socialLinks: [
             { href: "https://twitter.com/jiayq", icon: "icofont-twitter" },
             { href: "https://www.linkedin.com/in/yangqing-jia/", icon: "icofont-linkedin" },
@@ -205,10 +229,20 @@ export const speakers = [
         ]
     },
     {
+        name: "Li Erran Li",
+        title: "Head of HIL Science",
+        company: "AWS",
+        image: require("../../assets/images/speakers/erran.png"),
+        socialLinks: [
+            { icon: "icofont-web", href: "http://www.cs.columbia.edu/~lierranli/ " },
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/li-erran-li-552aa217/" }
+        ]
+    },
+    {
         name: "Lianmin Zheng",
         title: "Author of Vicuna",
         company: "UCB LMSYS AI Lab",
-        image: require("../../assets/images/speakers/lianminzheng.jpeg"),
+        image: require("../../assets/images/speakers/lianmin.png"),
         socialLinks: [
             { icon: "icofont-web", href: "https://lmzheng.net/" },
             { icon: "icofont-twitter", href: "https://twitter.com/lm_zheng" },
@@ -245,15 +279,25 @@ export const speakers = [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/shaunwei/" }
         ]
     },
+    // {
+    //     name: "Murray Newlands",
+    //     title: "Investor",
+    //     company: "Open Future Technology",
+    //     image: require("../../assets/images/speakers/newlands.jpg"),
+    //     socialLinks: [
+    //         { icon: "icofont-web", href: "https://www.murraynewlands.com/" },
+    //         { icon: "icofont-twitter", href: "https://twitter.com/MurrayNewlands" },
+    //         { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/murraynewlands/" }
+    //     ]
+    // },
     {
-        name: "Murray Newlands",
-        title: "Investor",
-        company: "Open Future Technology",
-        image: require("../../assets/images/speakers/newlands.jpg"),
+        name: "Karina Nguyen",
+        title: "AI Researcher",
+        company: "Anthropic",
+        image: require("../../assets/images/speakers/nguyen.png"),
         socialLinks: [
-            { icon: "icofont-web", href: "https://www.murraynewlands.com/" },
-            { icon: "icofont-twitter", href: "https://twitter.com/MurrayNewlands" },
-            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/murraynewlands/" }
+            { icon: "icofont-web", href: "https://karinanguyen.com/" },
+            { icon: "icofont-twitter", href: "https://twitter.com/karinanguyen_" }
         ]
     },
     {
@@ -266,5 +310,82 @@ export const speakers = [
             { icon: "icofont-twitter", href: "https://twitter.com/violet_zct" },
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/chunting-zhou-14525985" }
         ]
+    },
+    {
+        name: "Tiger Feng",
+        title: "President",
+        company: "Seattle Technical Forum",
+        image: require("../../assets/images/speakers/tiger.png"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/tigerf/" }
+        ]
     }
+    ,
+    {
+        name: "Rohit Agarwal",
+        title: "Co-Founder & CEO",
+        company: "Portkey.AI",
+        image: require("../../assets/images/speakers/Rohit.jpg"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/1rohitagarwal/" }
+        ]
+    },
+    {
+        name: "Shawn Wang",
+        title: "Founder",
+        company: "Smol AI",
+        image: require("../../assets/images/speakers/Shawn.png"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/shawnswyxwang/" }
+            
+        ]
+    },
+    {
+        name: "Florence Li",
+        title: "Chief Creative Officer",
+        company: "MetaY",
+        image: require("../../assets/images/speakers/Florence.jpg"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/florence-li-18b657206/" }
+           
+        ]
+    }
+    ,
+    {
+        name: "Michael Ran",
+        title: "Co-Founder",
+        company: "GPTDAO & Dawn Lab & 1gen.AI",
+        image: require("../../assets/images/speakers/MichaelRan.jpg"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/yang-ran-4ab4357a/" }
+            ,{ icon: "icofont-twitter", href: "https://twitter.com/MichaelRan15" }
+
+            
+        ]
+    }
+    ,
+    {
+        name: "Alan Xing",
+        title: "Co-Founder",
+        company: "GPT DAO & Wagmi33 Foundation",
+        image: require("../../assets/images/speakers/Alan.jpg"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/alanxing/" }
+            ,{ icon: "icofont-twitter", href: "https://twitter.com/alanxing" }
+            
+        ]
+    }
+    ,
+    {
+        name: "Ziren Lin",
+        title: "Senior Data Scientist",
+        company: "McKinsey AI",
+        image: require("../../assets/images/speakers/ziren.jpg"),
+        socialLinks: [
+            { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/ziren-lin-62bb5a11a/" }
+            ,{ icon: "icofont-twitter", href: "https://twitter.com/lin_ziren" }
+        ]
+
+    }
+    
 ];

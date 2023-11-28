@@ -83,12 +83,12 @@ export const booths = [
     //     description: "Cerebral Valley is a community comprised of founders and builders, dedicated to collaboratively researching and crafting the next generation of technology. Within this valley, members share resources, experiences, and knowledge, fostering cooperation and communication to push the boundaries of technological innovation.",
     //     image: require("../../assets/images/sponsors/cerebral.png")
     // },
-    {
-        name: "Founders Space",
-        link: "https://www.foundersspace.com/",
-        description: "Founders Space is a global innovation hub for entrepreneurs, corporations, and investors, with over 50 partners in 22 countries. Founders Space is a global venture builder and innovation hub. Founders Space has been ranked as # 1 by Forbes and Entrepreneur Magazines because of their unique venture building model and global reach.",
-        image: require("../../assets/images/sponsors/founderspace.png")
-    },
+    // {
+    //     name: "Founders Space",
+    //     link: "https://www.foundersspace.com/",
+    //     description: "Founders Space is a global innovation hub for entrepreneurs, corporations, and investors, with over 50 partners in 22 countries. Founders Space is a global venture builder and innovation hub. Founders Space has been ranked as # 1 by Forbes and Entrepreneur Magazines because of their unique venture building model and global reach.",
+    //     image: require("../../assets/images/sponsors/founderspace.png")
+    // },
     {
         name: "MountainLion",
         link: "https://test.mountainlion.ai/#/",
@@ -115,6 +115,12 @@ export const booths = [
         image: require("../../assets/images/sponsors/Arcti.png")
     },
     
+    {
+        name: "Arcticeider",
+        link: "",
+        description: "With 1Gen.ai, users can effortlessly generate animated images using natural language, indulging in a seamless journey of image editing and creative design. This tool integrates advanced controllable AI technology, offering users revolutionary innovation in image creation and design.",
+        image: require("../../assets/images/sponsors/Arcti.png")
+    },
     {
         name: "MetaBlox",
         link: "https://metablox.io/",
@@ -249,9 +255,63 @@ export const booths = [
         image: require("../../assets/images/sponsors/K&L.png")
     },
     {
-        name: "Brilinker",
-        link: "https://www.brilinker.com/#/",
+        name: "BrilinkerGPT",
+        link: "",
         description: "",
         image: require("../../assets/images/sponsors/brilinker.png")
+    },
+    {
+        name: "Realloop",
+        link: "",
+        description: "",
+        image: require("../../assets/images/sponsors/realloop.png")
+    },
+    {
+        name: "Express",
+        link: "",
+        description: "",
+        image: require("../../assets/images/sponsors/xpress1.png")
+    },
+    {
+        name: "faceAI",
+        link: "",
+        description: "",
+        image: require("../../assets/images/sponsors/faceAI.png")
+    },
+    {
+        name: "formacloud",
+        link: "",
+        description: "",
+        image: require("../../assets/images/sponsors/formacloud1.png")
+    },
+    {
+        name: "porkey",
+        link: "",
+        description: "",
+        image: require("../../assets/images/sponsors/portkey.png")
+    },
+    {
+        name: "Iris Energy",
+        link: "",
+        description: "",
+        image: require("../../assets/images/sponsors/irisenergy.png")
+    },
+    {
+        name: "MetaStill",
+        link: "",
+        description: "",
+        image: require("../../assets/images/sponsors/metastill.png")
+    },
+    {
+        name: "MathGPT",
+        link: "",
+        description: "",
+        image: require("../../assets/images/sponsors/MathGPT.png")
+    },
+    {
+        name: "BoxNearBy",
+        link: "",
+        description: "",
+        image: require("../../assets/images/sponsors/boxnearby.png")
     },
 ]

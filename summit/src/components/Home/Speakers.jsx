@@ -9,7 +9,10 @@ const Speakers = () => {
             <div className="container">
                 <div className="section-title">
                     <span>Listen to the Event Speakers</span>
-                    <h2>Our Speakers</h2>
+                    <h2>Previous Speakers 
+                    </h2>
+                    {/* <h4>(From "<a href="https://sv2023.genaisummit.xyz/" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }} >GenAI Summit 2023</a>")</h4> */}
+                    
                     <LaxDiv text="Speakers" dataPreset="driftRight" />
                 </div>
 
@@ -43,15 +46,15 @@ const Speakers = () => {
                     {/* <div className="col-lg-3 col-sm-6">
                         <div className="single-speakers-box">
                             <div className="speakers-content">
-                                <h3><Link to="#">More to Come</Link></h3>
+                                <h3>More to Come</h3>
                                 <span>Announced Weekly</span>
                             </div>
                         </div>
-                    </div> */}
+                    </div>  */}
                 </div>
             </div>
         </section>
-    );
+   );
 }
  
 export default Speakers;

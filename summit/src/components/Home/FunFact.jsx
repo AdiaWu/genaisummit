@@ -24,7 +24,7 @@ const FunFact = () => {
                                 <VisibilitySensor
                                     onChange={onVisibilityChange}
                                     offset={{
-                                        top: 1500
+                                        top: 10000
                                     }}
                                     delayedCall
                                 >
@@ -32,12 +32,12 @@ const FunFact = () => {
                                         start={0}
                                         end={
                                             didViewCountUp
-                                                ? 1500
+                                                ? 50000
                                                 : 0
                                         }
                                         duration={3}
                                     />
-                                </VisibilitySensor>
+                                </VisibilitySensor>+
                             </h3>
                             <p>Attendees</p>
                         </div>
@@ -52,7 +52,7 @@ const FunFact = () => {
                                 <VisibilitySensor
                                     onChange={onVisibilityChange}
                                     offset={{
-                                        top: 10
+                                        top: 22
                                     }}
                                     delayedCall
                                 >
@@ -60,14 +60,14 @@ const FunFact = () => {
                                         start={0}
                                         end={
                                             didViewCountUp
-                                                ? 10
+                                                ? 500
                                                 : 0
                                         }
                                         duration={3}
                                     />
-                                </VisibilitySensor>
+                                </VisibilitySensor> +
                             </h3>
-                            <p>Topics</p>
+                            <p>Exhibits</p>
                         </div>
                     </div>
                     
@@ -80,7 +80,7 @@ const FunFact = () => {
                                 <VisibilitySensor
                                     onChange={onVisibilityChange}
                                     offset={{
-                                        top: 22
+                                        top: 34
                                     }}
                                     delayedCall
                                 >
@@ -88,12 +88,12 @@ const FunFact = () => {
                                         start={0}
                                         end={
                                             didViewCountUp
-                                                ? 22
+                                                ? 200
                                                 : 0
                                         }
                                         duration={3}
                                     />
-                                </VisibilitySensor>
+                                </VisibilitySensor> +
                             </h3>
                             <p>Speakers</p>
                         </div>
@@ -108,7 +108,7 @@ const FunFact = () => {
                                 <VisibilitySensor
                                     onChange={onVisibilityChange}
                                     offset={{
-                                        top: 9
+                                        top: 13
                                     }}
                                     delayedCall
                                 >
@@ -116,12 +116,12 @@ const FunFact = () => {
                                         start={0}
                                         end={
                                             didViewCountUp
-                                                ? 9
+                                                ? 100
                                                 : 0
                                         }
                                         duration={3}
                                     />
-                                </VisibilitySensor>
+                                </VisibilitySensor> +
                             </h3>
                             <p>Sponsors</p>
                         </div>

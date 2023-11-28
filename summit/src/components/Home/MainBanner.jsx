@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ModalVideo from 'react-modal-video';
  
+
 const MainBanner = () => {
     const [state, setState] = useState({
         days: '',
@@ -15,7 +16,7 @@ const MainBanner = () => {
     }
 
     const makeTimer = () => {
-        let endTime = new Date("September 23 2023 00:00:00 PDT");			
+        let endTime = new Date("May 29 2024 09:00:00 PDT");			
         let endTimeParse = (Date.parse(endTime)) / 1000;
         let now = new Date();
         let nowParse = (Date.parse(now) / 1000);
@@ -27,6 +28,12 @@ const MainBanner = () => {
         if (hours < "10") { hours = "0" + hours; }
         if (minutes < "10") { minutes = "0" + minutes; }
         if (seconds < "10") { seconds = "0" + seconds; }
+        if (days < 0) {
+            days = 0;
+            hours = 0;
+            minutes = 0;
+            seconds = 0;
+        }
         setState(prevState => ({ ...prevState, days, hours, minutes, seconds }));
     }
 
@@ -54,15 +61,16 @@ const MainBanner = () => {
                     <div className="d-table-cell">
                         <div className="container">
                             <div className="main-banner-content">
-                                <h1>Generative AI Silicon Valley Summit 2023</h1>
+                                <h1>Generative AI Summit San Francisco 2024</h1>
 
                                 <ul>
-                                    <li><i className="icofont-compass"></i> Santa Clara Convention Center, California</li>
-                                    <li><i className="icofont-calendar"></i> 23 Sep, 2023</li>
+                                    <li>
+                                        <i className="icofont-compass"></i> Palace of Fine Arts, San Francisco, California</li>
+                                    <li><i className="icofont-calendar"></i> May 27 - May 31, 2024</li>
                                 </ul>
 
                                 <div className="button-box">
-                                    <a href="https://www.eventbrite.com/e/generative-ai-silicon-valley-summit-2023-tickets-644622642677" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Buy Tickets Now!</a>
+                                    <a href="" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Coming Soon!</a>
                                 </div>
                             </div>
                         </div>
