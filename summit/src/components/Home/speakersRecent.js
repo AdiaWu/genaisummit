@@ -11,7 +11,6 @@ export const speakersrecent = [
             { icon: "icofont-linkedin", href: "https://www.linkedin.com/in/andreasramos/" }
         ]
     },
-
     {
         image: require("../../assets/images/speakers/jason_wei.jpeg"),
         name: "Jason Wei",

@@ -12,7 +12,6 @@
   margin: 0 10px;
   float: none !important;
 }
-
 /* Set a fixed width on each slide */
 .slick-slider-recent-speakers .slick-slide {
   display: flex !important;
@@ -36,13 +35,12 @@
 
 /* Position the navigation arrows */
 .slick-slider-recent-speakers .slick-prev,
-
 .slick-slider-recent-speakers .slick-next {
   position: absolute;
   bottom: -1950px; /* Adjust as necessary */
   transform: translateY(100%);
   z-index: 25;
-  
+  display: none !important;
 }
 
 
